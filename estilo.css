@@ -1,0 +1,234 @@
+/* ═══════════════════════════════════════════════════════════════════════════ */
+/* SEÇÃO 1 — ESTILO GERAL                                                     */
+/* ═══════════════════════════════════════════════════════════════════════════ */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0b5394;
+    border-bottom: 3px solid #d6edb9;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+h3 {
+    color: #073763;
+    margin-top: 15px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════ */
+/* SEÇÃO 2 — HEADER (CABEÇALHO)                                               */
+/* ═══════════════════════════════════════════════════════════════════════════ */
+
+header {
+    background-color:#f2c9f0;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 32px;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+header img {
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════ */
+/* SEÇÃO 3 — NAVEGAÇÃO (MENU)                                                 */
+/* ═══════════════════════════════════════════════════════════════════════════ */
+
+nav {
+    background-color: #d6edb9;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd966;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════ */
+/* SEÇÃO 4 — TABELA                                                           */
+/* ═══════════════════════════════════════════════════════════════════════════ */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #073763;
+}
+
+th {
+    background-color: #d6edb9;
+    color: #ffffff;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #dddddd;
+}
+
+tr:nth-child(even) {
+    background-color: #eef3fa;
+}
+
+tr:hover {
+    background-color: #e8f0f8;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════ */
+/* SEÇÃO 5 — FORMULÁRIO E BOTÃO                                               */
+/* ═══════════════════════════════════════════════════════════════════════════ */
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #073763;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #d6edb9;
+    box-shadow: 0 0 5px rgba(11, 83, 148, 0.3);
+}
+
+button {
+    background-color:#d6edb9;
+    color: #ffffff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #073763;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════ */
+/* LISTAS                                                                      */
+/* ═══════════════════════════════════════════════════════════════════════════ */
+
+ul,
+ol {
+    margin: 15px 0;
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════ */
+/* LINKS                                                                       */
+/* ═══════════════════════════════════════════════════════════════════════════ */
+
+a {
+    color: #0b5394;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #073763;
+}
+
+section a {
+    color: #0b5394;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════ */
+/* RODAPÉ                                                                      */
+/* ═══════════════════════════════════════════════════════════════════════════ */
+
+footer {
+    background-color: #073763;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════ */
